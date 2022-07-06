@@ -1,2 +1,15 @@
-# Determining-Customer-Segments-through-Clustered-Reviews
-Data Mining and Wrangling Mini Project 4 - September 12, 2021
+# Home is Where the Heart is: Determining Amazon's Furniture Line Customer Segments through Clustered Reviews
+
+<p align="justify">Data Mining and Wrangling Mini Project 4 by Patrick Guillano La Rosa and Karen Patricia Reyes - September 12, 2021. The code, analysis, and the full report are included in the <a href="https://github.com/pgplarosa/Determining-Customer-Segments-through-Clustered-Reviews/blob/main/md/Amazon%20Furniture%20Review.md">Technical Report</a>. If you have any questions regarding this study, please send me a message via  <a href="https://www.linkedin.com/in/patricklarosa/">LinkedIn</a>.</p>
+
+<img src="./outputs/banner.png" width=100% />
+
+## Executive Summary
+
+<p align="justify">Home is where the heart is. People do not normally pick the furniture they put in their homes at random. They look for pieces that reflect who they are and how they live. Hence, every customer has a unique set of preferences and needs that sellers of furniture need to understand in order to get them into their customer base. They cannot tailor the furniture items they sell to every single customer. They can, however, cluster similar customers together to identify specific segments that can guide them in creating targeted marketing strategies. The objective of this study is to then identify the different customer segments per category in Amazon’s furniture line to understand what customers in each segment look for when buying furniture for their homes.
+
+<p align="justify">Using the Amazon Customer Reviews Dataset for Furniture from 2002 to 2015 and limiting the scope of the study to the furniture item categories: desk, mattress, sofa, and drawer, we first analyzed the volume of the review section through the years, its general composition in terms of the furniture item categories, the general distribution of customer ratings for all categories in scope, and trends in the ratings over time. After which, we focused on the contents of the review section in determining the different customer segments by performing K-means clustering, internal validation, word frequency analysis, and Latent Semantic analysis.</p>
+
+<p align="justify">We have concluded from the study that across all categories, common segments were 1) customers who make sure that the quality of the furniture they bought equates to or even exceeds the price they paid for it and 2) customers who are price-conscious - often engaging in comparison shopping and always on the lookout for discounts. We also discovered three customer segments common among the desk, drawer, and sofa categories – items of which require assembly. The customer segments in the mattress category also valued quality of the items, but they differed from the other categories in the sense that customers also factored in who they were buying the item for and whether they bought the set version which included the bed frame, a complementary product of the mattress.</p>
+
+<p align="justify">Future studies may focus more on improving this study by filtering out words which can be considered noise in clustering the data or expanding the dataset to include either more recent reviews or reviews from customers outside the US market.</p>
